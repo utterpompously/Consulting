@@ -1,9 +1,4 @@
-$(window).on('load', function() {
-	$('.sf-menu').superfish();
 
-   
-  
-}); 
  $('.slide-carousel').owlCarousel({
         loop: true,
         autoplay: true,
@@ -29,3 +24,13 @@ $(window).on('load', function() {
                 }
         }
     });
+
+ $(document).ready(function(){
+    $('.counter').counterUp({
+        delay: 15,
+        time: 1000
+    });
+   jQuery('.sf-menu').superfish();
+
+ 
+});
