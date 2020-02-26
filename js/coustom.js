@@ -30,7 +30,7 @@
         delay: 15,
         time: 1000
     });
-   jQuery('.sf-menu').superfish();
+    jQuery('.filtr-container').filterizr();
 
  
 });
